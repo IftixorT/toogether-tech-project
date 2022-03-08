@@ -5,6 +5,7 @@ import burger1 from '../../../assets/svg-png/burger 1.svg'
 import bgburger from './../../../assets/svg-png/bg-burger.svg'
 import location from './../../../assets/svg-png/location.svg'
 import location_img from './../../../assets/images/image 40.png'
+import Video from './Video/Video'
 
 export interface BranchesProps {}
 
@@ -211,6 +212,7 @@ const Branches: FC<BranchesProps> = () => {
 					</div>
 				</div>
 			</div>
+			<Video/>
 		</ViewMenuStyle>
 	)
 }
