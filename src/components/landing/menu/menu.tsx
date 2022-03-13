@@ -9,7 +9,7 @@ const Menu: FC<MenuProps> = () => {
 		<div className="menu">
 			<Categories />
 			<FoodListGroup />
-			<button className="view">View Menu</button>
+			<button className="view"><a href="/menu">View Menu</a></button>
 		</div>
 	)
 }

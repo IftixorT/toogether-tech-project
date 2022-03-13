@@ -20,8 +20,7 @@ body {
 	font-style: normal;
 	/* margin:auto */
 	background-image: url(../../../assets/images/food/menu-bg-imgs/Group\ 1255.svg),
-		url(../../../assets/images/food/menu-bg-imgs/food1.svg),
-		url(../../../assets/images/food/menu-bg-imgs/food2.svg);
+		url(../../../assets/images/food/menu-bg-imgs/food1.svg), url(../../../assets/images/food/menu-bg-imgs/food2.svg);
 	background-position: left 0 top 90px, right 20px top 500px, left 30% top 600px;
 	background-attachment: local;
 	background-repeat: no-repeat;
@@ -54,7 +53,7 @@ body {
 }
 .section::after {
 	opacity: 0;
-	content: '';
+	content: "";
 	width: 10px;
 	height: 10px;
 	position: relative;
@@ -97,11 +96,18 @@ body {
 	font-size: 18px;
 	grid-column: 1/-1;
 	display: block;
-	margin: auto;
+	margin: 5rem auto;
 	margin-top: 20px;
+	cursor: pointer;
 }
+
+.view > a {
+	text-decoration: none;
+}
+
 .view:hover {
 	transform: scale(1.1);
+	color: #fff;
 }
 
 @media screen and (max-width: 900px) {

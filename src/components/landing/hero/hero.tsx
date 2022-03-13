@@ -61,7 +61,7 @@ const Hero: FC<{}> = () => {
 					{content}
 				</h1>
 				<div id="hero-slider-title">
-					<a key={idx} href="#in" className="hero__btn animate__bounceIn">
+					<a key={idx} href="/menu" className="hero__btn animate__bounceIn">
 						View Menu
 					</a>
 					<div className="hero__control-slider flex ">

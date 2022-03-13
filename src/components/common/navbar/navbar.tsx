@@ -1,6 +1,6 @@
 import {FC, useEffect, useRef, useState} from 'react'
 import {Link} from 'react-router-dom'
-import logo from '../../../assets/images/navbar/logo.svg'
+import logo from '../../../assets/images/logo-ml.png'
 import phone from '../../../assets/images/navbar/telephone.svg'
 import dropdown from '../../../assets/images/navbar/dropdown.svg'
 import {Wrapper} from './navbar.e'
@@ -48,9 +48,9 @@ const NavBar: FC<{bgColor?: string}> = ({bgColor = '#000'}) => {
 							</a>
 						</li>
 						<li className="nav__item">
-							<a href={link} className="nav__link">
+							<Link to="/about" className="nav__link">
 								About
-							</a>
+							</Link>
 						</li>
 						<li className="nav__item">
 							<Link to="/partnership" className="nav__link">
@@ -73,14 +73,14 @@ const NavBar: FC<{bgColor?: string}> = ({bgColor = '#000'}) => {
 						<a href="tel:+998998961348" className="header__number">
 							<img src={phone} alt="" /> +4424 401 19 76
 						</a>
-						<div className="header__language">
+						{/* <div className="header__language">
 							<select name="language" id="language">
 								<option value="en">ENG</option>
 								<option value="ru">RUS</option>
 								<option value="uz">UZB</option>
 							</select>
 							<img src={dropdown} alt="" />
-						</div>
+						</div> */}
 					</div>
 				</nav>
 				<a href={link} id="opener-nav" onClick={() => setShowNav(true)}>

@@ -39,6 +39,13 @@ export const routes: IRoute[] = [
 		private: false,
 		fallback: <div> Loading... </div>,
 	},
+	// {
+	// 	path: '/about',
+	// 	component: lazy(() => import('../components/about-us/about-us')),
+	// 	exact: true,
+	// 	private: false,
+	// 	fallback: <div> Loading... </div>,
+	// },
 	{
 		path: '',
 		exact: false,
