@@ -7,7 +7,7 @@ export default class NotFound extends Component {
       <div className="d-flex flex-column text-center my-5">
         <ErrorH>404</ErrorH>
         <ErrorP>not found page</ErrorP>
-        <button className="btn btn-primary mx-auto my-4" onClick={() => this.props.history.replace("/")}>go home</button>
+        <button className="btn mx-auto my-4" onClick={() => this.props.history.replace("/")}>go home</button>
       </div>
     )
   }

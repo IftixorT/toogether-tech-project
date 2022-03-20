@@ -1,16 +1,22 @@
 import classes from './slider.module.css'
 
-import {Swiper, SwiperSlide} from 'swiper/react'
 import imgSandwich from '../../../assets/images/hero/sandwich.png'
 import imgPizza from '../../../assets/images/hero/pizza.png'
 import imgBurger from '../../../assets/images/hero/burger.png'
+// import { Navigation, Pagination } from 'swiper';
+// Direct React component imports
+// import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react/swiper-react.js';
+import 'swiper/swiper.scss'; // core Swiper
+import 'swiper/modules/navigation/navigation.scss'; // Navigation module
+import 'swiper/modules/pagination/pagination.scss'; // Pagination module
 // Import Swiper styles
-import 'swiper/swiper.min.css'
-import 'swiper/components/pagination/pagination.min.css'
-import 'swiper/components/navigation/navigation.min.css'
+// import 'swiper/swiper.min.css'
+// import 'swiper/components/pagination/pagination.min.css'
+// import 'swiper/components/navigation/navigation.min.css'
 
 // import Swiper core and required modules
-import SwiperCore, {Autoplay, Navigation} from 'swiper/core'
+import SwiperCore, {Autoplay, Navigation} from 'swiper'
 import SliderBox from './slider-box'
 
 // install Swiper modules

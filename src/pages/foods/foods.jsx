@@ -1,7 +1,7 @@
 /** @format */
 
 import React, {Component} from 'react'
-import _ from 'lodash'
+// import _ from 'lodash'
 import {getCategories} from '../../services/fakeCategories'
 import {getFoods} from '../../services/fakeFoods'
 import ProductsTable from '../../components/menu/products-table'

@@ -1,4 +1,4 @@
-import * as categoriesAPI from './fakeCategories'
+// import * as categoriesAPI from './fakeCategories'
 import {burger, sendwich, pizza} from '../utils/imgExport'
 const foods = [
 	{
