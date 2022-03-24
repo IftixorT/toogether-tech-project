@@ -53,7 +53,7 @@
 		]
 	},
 	"devDependencies": {
-		"@types/react-router-dom": "*",
+		"@types/react-router-dom": "^*",
 		"@types/react-slick": "*",
 		"@types/slick-carousel": "*",
 		"@types/styled-components": "*",
