@@ -6,15 +6,20 @@ import twitter from '../../../assets/images/footer/twitter.svg'
 import telegram from '../../../assets/images/footer/telegram.svg'
 import instagram from '../../../assets/images/footer/instagram.svg'
 
+import logo from '../../../assets/images/navbar/logo.png'
+
+
 export interface FooterProps {}
 
 const Footer: FC<FooterProps> = () => {
 	return (
 		<footer className="footer bg-dark d-flex align-items-center justify-space-between">
 			<div className="about d-flex flex-column">
-				<h3 className="logo text-warning font-weight-lighter">Logo</h3>
+				<h3 className="logo text-warning font-weight-lighter">
+				<img src={logo} alt="Logo" className="logo" />
+				</h3>
 				<h6 className="about">
-					Copyright © 2021. LogoIpsum. All rights reserved.
+					Copyright © 2022. LogoIpsum. All rights reserved.
 				</h6>
 				<div className="messengers d-flex">
 					<div className="messengerBg bg-white">
