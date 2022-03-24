@@ -1,26 +1,17 @@
-import FoodPropertyCard from './style'
-
-const FoodProperties = ({category}) => {
-	console.log(category, "data")
+import FoodProperty from './style.jsx'
+import Data from './data.js'
+const FoodProperties = numberOfImg => {
+	const {imgURL, price, title, description, isRecommended, size} = Data
 	return (
 		<>
-			{category?.items.map((item) => {
-				return (
-					<>
-						<FoodPropertyCard key={item?.id} className="food-property">
-							<div className='food-property-card'>
-								<div>
-									<p className="recommend">Recomended</p>
-									<h3 className="food-name">{item?.subtitle}</h3>
-								</div>
-								<div className="cost">{item?.price}</div>
-							</div>
-							<p className="data">{item?.description}</p>
-						</FoodPropertyCard>
-					</>
-				)
-				
-			})}
+			<FoodProperty>
+				<img src={imgURL[numberOfImg.imgUrl]} alt="png" />
+				<p className="recommend">{isRecommended}</p>
+				<span className="line"></span>
+				<h3 className="food-name">{title}</h3>
+				<p className="data">{description}</p>
+				<div className="cost">${price}</div>
+			</FoodProperty>
 		</>
 	)
 }

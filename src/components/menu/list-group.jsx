@@ -9,7 +9,7 @@ const ListGroup = ({items, selectedItem, onSelect, valueKey, idKey, img}) => {
 					onClick={() => onSelect(item[idKey])}
 				>
 					<span className="span">{item[valueKey]}</span>
-					<img src={item[img]} alt="item" />
+					<img src={item[img]} />
 				</div>
 			))}
 		</div>
