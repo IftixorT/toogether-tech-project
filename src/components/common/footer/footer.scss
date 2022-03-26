@@ -1,0 +1,89 @@
+* {
+	user-select: none;
+	margin: 0;
+}
+
+footer {
+	// width: 100vw;
+	height: 300px;
+	padding: 0px 4rem;
+	justify-content: space-between;
+	color: white;
+	.about {
+		height: 70%;
+		justify-content: space-around;
+		.logo{
+			width: 65px;
+			margin: 10px;
+		}
+	}
+	.messengers {
+		width: 240px;
+		justify-content: space-between;
+		cursor: pointer;
+	}
+	.messengerBg {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transform: scale(1.2);
+	}
+
+	.menus {
+		height: 70%;
+		cursor: pointer;
+		._menu {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			height: 100%;
+			a{
+				margin-left: 100px;
+				font-weight: 600;
+				color: #fff;
+			}
+		}
+
+		._menu h6:hover {
+			text-decoration-line: underline;
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	footer {
+
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+		height: 30rem;
+		padding: 25px 20px;
+		transition: 0.3s;
+	}
+	.about {
+		width: 100%;
+		text-align: center;
+		align-items: center;
+		margin: 1rem auto;
+		.logo{
+			margin: 2rem auto;
+		}
+	}
+	.menus {
+		margin-top: 25px;
+		margin-left: -7rem;
+	}
+	.menu {
+		margin: 0px 50px;
+	}
+	.messengerBg {
+		width: 30px;
+		height: 30px;
+	}
+	.messengerBg img {
+		width: 50%;
+	}
+}
