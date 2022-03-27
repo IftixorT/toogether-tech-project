@@ -6,7 +6,7 @@ import Img4 from '../../../../assets/images/menu-gallery/menu-gallery-img-4.jpg'
 import Img5 from '../../../../assets/images/menu-gallery/menu-gallery-img-5.jpg'
 import Img6 from '../../../../assets/images/menu-gallery/menu-gallery-img-6.jpg'
 import Img7 from '../../../../assets/images/menu-gallery/menu-gallery-img-7.jpg'
-import Img8 from '../../../../assets/images/menu-gallery/menu-gallery-img-8.jpg'
+// import Img8 from '../../../../assets/images/menu-gallery/menu-gallery-img-8.jpg'
 import Img9 from '../../../../assets/images/menu-gallery/menu-gallery-img-9.jpg'
 
 import {Swiper, SwiperSlide} from 'swiper/react/swiper-react.js'
@@ -46,9 +46,6 @@ function Carousel() {
 			img: Img7,
 		},
 		{
-			img: Img8,
-		},
-		{
 			img: Img9,
 		},
 	]
@@ -71,24 +68,24 @@ function Carousel() {
 					}}
 					breakpoints={{
 						600: {
-							slidesPerView: 2,
+							slidesPerView: 1,
 							spaceBetween: -40,
 						},
 						700: {
-							slidesPerView: 2,
+							slidesPerView: 1,
 							spaceBetween: -50,
 						},
 						1024: {
-							slidesPerView: 2,
+							slidesPerView: 1,
 							spaceBetween: -50,
 						},
 						1250: {
-							slidesPerView: 3,
+							slidesPerView: 1,
 							spaceBetween: -60,
 						},
 
 						1500: {
-							slidesPerView: 3,
+							slidesPerView: 1,
 							spaceBetween: -80,
 						},
 					}}
