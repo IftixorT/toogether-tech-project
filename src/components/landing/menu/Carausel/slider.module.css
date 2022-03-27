@@ -34,7 +34,7 @@
 }
 .slideBox > img {
 	width: 50%;
-	border-radius: 20px;
+	border-radius: 22px;
 }
 
 .mySwiper div:nth-child(-n + 2)::after {
