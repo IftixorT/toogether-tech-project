@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "src/components/food-properties/FoodProperties.js"  ]
 }

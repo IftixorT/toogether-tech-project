@@ -17,7 +17,7 @@ const Landing = () => (
 		<Hero />
 		<Slider />
 		<WhyWe />
-		{/* <Menu /> */}
+		<Menu />
 		<Carousel />
 		<Branches />
 		<Video />

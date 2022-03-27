@@ -16,7 +16,7 @@ const Categories = () => {
 	return (
 		<>
 
-			<div className="menu_container">
+			{/* <div className="menu_container">
 				<h1 className="menu_head">Menu</h1>
 				<div className="categories">
 					{data.menuGoods.map((menugoods, i) => {
@@ -35,7 +35,7 @@ const Categories = () => {
 					})}
 				</div>
 				<FoodPropertyCard category={active} />
-			</div>
+			</div> */}
 
 			<h1 className="menu_head">Menu</h1>
 			<div className="categories ">
