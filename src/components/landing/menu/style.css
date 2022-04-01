@@ -76,15 +76,15 @@ body {
 	margin: auto;
 }
 
-.food-container {
+/* .food-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	justify-items: center;
-	/* max-width: 1400px; */
+
 	padding: 2rem 0;
 	height: 60vh;
 	margin: auto;
-}
+} */
 .view {
 	outline: none;
 	width: 160px;
@@ -120,7 +120,7 @@ body {
 		border-right: 5px solid var(--line-color);
 		border-radius: 0 20% 20% 0;
 		transition: var(--main-transition);
-		top: 50%;
+		top: 24%;
 	}
 	.categories:hover {
 		border-right: 4px solid var(--yellov);

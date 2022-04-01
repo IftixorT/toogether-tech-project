@@ -1,17 +1,18 @@
 import {FC} from 'react'
+import Carousel from './Carausel/carousel'
 import Categories from './categories/categories'
 import FoodListGroup from './food-list-group'
-import Gallary from './menu-gallery/menu-gallery'
+import MenuGallery from './menu-gallery/menu-gallery'
 import './style.css'
 export interface MenuProps {}
 
 const Menu: FC<MenuProps> = () => {
 	return (
-		<div className="menu">
+		<div className="menu" id="section_menu">
 			<Categories />
 			<FoodListGroup />
-			{/* <Gallary /> */}
-			{/* <button className="view">View Menu</button> */}
+			<MenuGallery />
+			<Carousel />
 		</div>
 	)
 }

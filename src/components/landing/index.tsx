@@ -4,5 +4,5 @@ export {default as WhyWe} from './why-we/why-we'
 export {default as Menu} from './menu/menu'
 export {default as Branches} from './branches/ourBranch'
 export {default as Video} from './branches/Video/Video'
-export {default as Carousel} from './menu/Carausel/carousel'
+// export {default as Carousel} from './menu/Carausel/carousel'
 

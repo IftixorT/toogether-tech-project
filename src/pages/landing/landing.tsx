@@ -6,7 +6,7 @@ import {
 	Branches,
 	NavBar,
 	Video,
-	Carousel,
+	// Carousel,
 	Footer,
 } from '../../components'
 import AboutUs from '../../components/about-us/about-us'
@@ -18,7 +18,7 @@ const Landing = () => (
 		<Slider />
 		<WhyWe />
 		<Menu />
-		<Carousel />
+		{/* <Carousel /> */}
 		<Branches />
 		<Video />
 		<AboutUs />

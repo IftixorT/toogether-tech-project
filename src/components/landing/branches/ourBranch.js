@@ -26,6 +26,7 @@ const OurBranches = () => {
 										<div>
 											<div className="branchBtnTitle">{title}</div>
 											<div className="branchBtnTitleMini">{location}</div>
+											<a href="/#address">_</a>
 										</div>
 									</button>
 								</div>
@@ -45,6 +46,7 @@ const OurBranches = () => {
 										<div>
 											<div className="branchBtnTitle">{title}</div>
 											<div className="branchBtnTitleMini">{location}</div>
+											<a href="/#address">_</a>
 										</div>
 									</button>
 								</div>

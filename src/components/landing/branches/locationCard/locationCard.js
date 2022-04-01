@@ -8,7 +8,7 @@ const AddressCard = ({id}) => {
 		setCard(data.slice(3, 12).filter(({id: idx}) => id === idx)[0])
 	}, [id])
 	return (
-		<div className="addressContainer">
+		<div className="addressContainer" id="address">
 			<div key={card?.id}>
 				<img src={card?.img} className="addressImg" alt="img" />
 				<div className="addressTitle">Address</div>
